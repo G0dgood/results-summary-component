@@ -4,6 +4,7 @@ import data from "../data.json";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-white sm:bg-pale-blue">
+      <h1 className="sr-only">Results summary component</h1>
       <div className="flex flex-col sm:flex-row bg-white sm:rounded-[32px] sm:shadow-[20px_30px_60px_rgba(0,0,0,0.05)] max-w-[736px] w-full overflow-hidden">
         
         {/* Left Section: Result */}
